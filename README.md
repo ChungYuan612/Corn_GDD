@@ -1,5 +1,5 @@
 # Corn_GDD
-![Project Cover](Docs/cover.jpg)
+![Project Cover](docs/cover.jpg)
 ## 專案簡介 (Introduction)
 
 這是一個結合 **IoT (ESP8266)** 與 **Cloud Computing (Google Cloud)** 的智慧農業系統，旨在解決 **農作物（如玉米）生長環境監測與採收日預測** 的問題。
@@ -19,7 +19,7 @@
 
 ## 系統架構 (System Architecture)
 
-![Architecture](Docs/architecture.png)
+![Architecture](docs/architecture.png)
 ### 技術堆疊 (Tech Stack)
 - **MCU / Edge Node**: ESP8266 (NodeMCU v2 / Wemos D1 Mini)
 - **Sensors**: DHT22 (AM2302) Temperature & Humidity Sensor
@@ -32,7 +32,7 @@
 
 ## 硬體配置 (Hardware Setup)
 
-![Wiring](Docs/wiring_diagram.jpg)
+![Wiring](docs/wiring_diagram.png)
 ### 接線說明列表
 1. **DHT22 VCC** -> ESP8266 **3V3** (※注意：請勿接 5V5
 2. **DHT22 GND** -> ESP8266 **GND**
